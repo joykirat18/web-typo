@@ -12,22 +12,40 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="style.css">
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script> -->
+    	<!-- <script src="http://chancejs.com/chance.min.js"></script> -->
+    	<!-- <script src="https://code.jquery.com/jquery-3.5.1.js" ></script> -->
+		<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+		<!-- <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" -->
+   <!-- rel = "stylesheet"> -->
+<!-- <script src = "https://code.jquery.com/jquery-1.10.2.js"></script> -->
+<!-- <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> -->
+
 	</head>
 	<body>
-		<div>
-			<h1 data-splitting id = "main" class = "breathe-animation" >I can Breathe</h1>
+		
+		<div id = "first-div">
+			<h1 data-splitting id = "main" class = "breathe-animation">I can Breathe</h1>
 		</div>
-		<br>
+		
 		<div class="button" id="button-2">
-			<br>
 			<div id="slide"></div>
-			<a href="#">Click Me</a>
+			<a onclick = "change()" href="#">Click Me</a>
 		  </div>
-		  <div class="content">
-			<h2 id = "help" class="text_shadows"></h2>
+		  
+		  
+		<div id = "all-info" data-splitting class="headline headline--float info">
+			<span class = "title">George Floyd</span> said he couldn't breathe more than 20 times, called out for his children
+			and late mother and said officers would "kill" him before he died in Minneapolis police custody.<br>
+			Floyd, a black man, died on May 25 when a white police officer knelt on his neck for nearly nine minutes. His death has unleashed a massive wave of protests against systemic
+			racism and police brutality in the United States and inspired demos across the world. The shake in I can't breathe represents he is struggling and in pain.
+	
+		</div>
+		<br><br>
+		<div class="button" id="button-2">
+			<div id="slide1"></div>
+			<a onclick = "window.location.reload();" href="#">HELP ME BREATHE</a>
 		  </div>
-		<!-- <button id = "push">Click Me</button> -->
-
 		
 		<script type="module" src="index.js"></script>
 	</body>
