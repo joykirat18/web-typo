@@ -23,10 +23,16 @@ function change() {
   }
 }
 
-document.getElementById("main").addEventListener("mouseover", after5Sec);
-
+document.getElementById("main").addEventListener("mousedown", after5Sec);
+let t;
 function after5Sec(){
-	setTimeout(change, 3000);
+	t = setTimeout(change, 5000);
+	
+}
+document.getElementById("main").addEventListener("mouseup", clear);
+
+function clear(){
+	clearTimeout(t);
 }
 
 const reloadButton = document.querySelector("#slide1");
