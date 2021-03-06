@@ -8,30 +8,30 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script> -->
-    <!-- <script src="http://chancejs.com/chance.min.js"></script> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" ></script> -->
-    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-    <!-- <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" -->
-    <!-- rel = "stylesheet"> -->
-    <!-- <script src = "https://code.jquery.com/jquery-1.10.2.js"></script> -->
-    <!-- <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> -->
+  
   </head>
   <body>
     <div id="first-div">
       <h1 data-splitting id="main" class="breathe-animation">I can Breathe</h1>
     </div>
-
-    <div class="button" id="button-2">
+<div class = "row">
+  <div class="button" id="button-2">
       <div id="slide"></div>
       <a onclick="change()" href="#">Click Me</a>
     </div>
-
-    <div id="all-info" data-splitting class="headline headline--float info">
+    <div class="button" id="button-2">
+      <div id="slide1"></div>
+      <a onclick="window.location.reload();" href="#">HELP ME BREATHE</a>
+	</div>
+</div>
+    
+<div class = "row">
+  <div id="all-info" data-splitting class="headline headline--float info col-6">
       <span class="title">George Floyd</span> said he couldn't breathe more than
       20 times, called out for his children and late mother and said officers
       would "kill" him before he died in Minneapolis police custody.<br />
@@ -41,12 +41,14 @@
       States and inspired demos across the world. The shake in I can't breathe
       represents he is struggling and in pain.
     </div>
+    
+     <img  src="BLM.jpg" alt = "Black Life matter"> 
+    
+</div>
+    
     <br /><br />
-    <div class="button" id="button-2">
-      <div id="slide1"></div>
-      <a onclick="window.location.reload();" href="#">HELP ME BREATHE</a>
-	</div>
-	<img src="BLM.jpg" alt = "Black Life matter">
+    
+	
     <script type="module" src="index.js"></script>
   </body>
 </html>

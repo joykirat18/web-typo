@@ -9,9 +9,9 @@ function change() {
     const div = document.createElement("div");
     div.className = "animation";
     div.innerHTML = `
-        <h4 class="first "><p class = "shake">I can't</h4> 
+        <h2 class="first "><p class = "shake">I can't</h2> 
         <span class="oh">
-          <h4 class="second"><p class = "shake">Breathe</h4>
+          <h2 class="second"><p class = "shake">Breathe</h2>
         </span>
       `;
     document.getElementById("first-div").appendChild(div);
@@ -21,6 +21,12 @@ function change() {
 	clickedonce = true;
 	
   }
+}
+
+document.getElementById("main").addEventListener("mouseover", after5Sec);
+
+function after5Sec(){
+	setTimeout(change, 3000);
 }
 
 const reloadButton = document.querySelector("#slide1");
