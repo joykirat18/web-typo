@@ -1,4 +1,4 @@
-import Splitting from "https://cdn.skypack.dev/splitting";
+import Splitting from "https://cdn.skypack.dev/pin/splitting@v1.0.6-Za2vDy3XuQ4lO2x5hbUG/mode=imports,min/optimized/splitting.js";
 
 document.getElementById("slide").addEventListener("click", change);
 let clickedonce = false;
@@ -17,11 +17,9 @@ function change() {
     document.getElementById("first-div").appendChild(div);
 
     heading.classList.remove("breathe-animation");
-    // heading.classList.add("shake animation");
     document.body.style.background = "#FF6347";
-    // document.getElementById("help").innerHTML = "HELP";
-    // document.getElementsByClassName("content").te = "<h2 class='text_shadows'>HELP</h2>";
-    clickedonce = true;
+	clickedonce = true;
+	
   }
 }
 
