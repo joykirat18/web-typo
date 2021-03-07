@@ -26,7 +26,7 @@ function change() {
 document.getElementById("main").addEventListener("mousedown", after5Sec);
 let t;
 function after5Sec(){
-	t = setTimeout(change, 5000);
+	t = setTimeout(change, 4000);
 	
 }
 document.getElementById("main").addEventListener("mouseup", clear);
