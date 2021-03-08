@@ -15,7 +15,7 @@ function change() {
         </span>
       `;
     document.getElementById("first-div").appendChild(div);
-
+    document.getElementById("press").innerHTML = " ";
     heading.classList.remove("breathe-animation");
     document.body.style.background = "#FF6347";
 	clickedonce = true;
@@ -26,8 +26,7 @@ function change() {
 document.getElementById("main").addEventListener("mousedown", after5Sec);
 let t;
 function after5Sec(){
-	t = setTimeout(change, 4000);
-	
+	t = setTimeout(change, 3000);	
 }
 document.getElementById("main").addEventListener("mouseup", clear);
 
